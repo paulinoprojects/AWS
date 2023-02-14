@@ -26,7 +26,7 @@
 - Monitoring & security requirements
 - Service sprawl reductions
 
-# Study Plan
+# Study Plan (2 Week Bootcamp)
 - Week 1:
     - Day 1-2: Review the AWS Certified Solutions Architect – Associate exam objectives and familiarize yourself with the exam format and structure. You can find the exam objectives and other information on the AWS Certified Solutions Architect – Associate certification page (https://aws.amazon.com/certification/certified-solutions-architect-associate/).
 
