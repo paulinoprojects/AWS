@@ -42,7 +42,7 @@
 - Support encryption and data automatic classification
 - Big data analytics can run directly against stored data (no need to transfer data to a database to run analytics)
 
-#### Getting data into S3
+### Getting data into S3
 - API (Application Programming Interface)
 - AWS Direct Connect 
 - Storage Gateway 
@@ -61,7 +61,7 @@
 - Eventual Consistency: may take time to get copy across avaliability zones
   - Great for static website hosting
 
-#### Common S3 Operation
+### Common S3 Operation
 - Creating and deleteing buckets
 - Write objects
 - Reading objects
