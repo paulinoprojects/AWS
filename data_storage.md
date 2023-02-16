@@ -79,11 +79,11 @@
     - Metadata is used to define the purpose of the object.
     - Tags are usedto search, organize, and manage access. Objects can have up to 10 tags.
 - When creating an S3 bucket folders, prefixes are added to objects to that they appear as folders.
-- 
+
 #### S3 Bucket Properties
 - Static Website Hosting, admins can enable their bucket to host a website. 
 - Encryption (storage secuirty, data at rest not transit), admins can encrypt the bucket and/or objects. 
 - Permissions/Access can be set at the bucket level for baseline, then individual object permissions can be added to the baseline of the bucket. 
 - Lifecycle Rules for objects to can be applied to save on costs. 
     - Unused objects can be configured to automatically move to Infrequent Access after 30 days, then Glacier after 60 days of being inactive.  
-- 
+
