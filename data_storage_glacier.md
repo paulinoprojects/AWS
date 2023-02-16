@@ -1,4 +1,5 @@
 # AWS Solutions Architect Associate: Data Storage Services - Glacier
+Reference: https://docs.aws.amazon.com/amazonglacier/latest/dev/introduction.html
 ### Overview
 - Archival data storage
 - Fractions of a penny per GB/month
