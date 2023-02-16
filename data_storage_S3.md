@@ -89,3 +89,8 @@ Reference: https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
 - Lifecycle Rules for objects to can be applied to save on costs. 
     - Unused objects can be configured to automatically move to Infrequent Access after 30 days, then Glacier after 60 days of being inactive.  
 
+
+# Storage Gateway - Used to store files as objects in AWS S3
+1. File Gateway - Local cache for low-latency access to your most recently used data.
+2. Volume Gateway - Block storage in AWS S3 with point-in-time backups as Amazon EBS snapshots.
+3. Tape Gateway - Back up data to S3 and archive in Glacier using your exisiting tape-based processess.
