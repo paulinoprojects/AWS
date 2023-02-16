@@ -8,7 +8,6 @@
   - How accessable do you need your data?
 - Cost
   - Find the balance between performance, security, and operational cost.
-
 ### Types of Storage Services
 - Simple Sotrage Service (S3)
 - Glacier
@@ -17,7 +16,6 @@
 - Storage Gateway
 - Snow Family
 - Databases
-
 #### Block Storage
 - Refers to a type of storage that is used to store individual blocks of data, rather than files. Each block is treated as a separate, addressable unit of data, and blocks can be combined to form a larger volume. 
 - In AWS, block storage is provided by Amazon Elastic Block Store (Amazon EBS) service.
@@ -26,7 +24,6 @@
     - iSCI
     - Fibre Channel
 - Best suited for use cases where low-latency, high-performance storage is required.
-
 #### File Storage
 - Refers to a type of storage that is used to store data in the form of files and directories. 
 - In AWS, file storage is provided by Amazon Elastic File System (Amazon EFS) service.
@@ -34,14 +31,12 @@
 - Uses similar called object sotrage in S3
 - Used with NAS devices locally
 - Best suited for use cases where scalability and multi-instance access to data is required.
-
 # S3 
 ### Storage Class
 - Object storage
 - Distributes across at least three avaliability zones by default (Except: 1A = 1 Zone but least expensive)
 - Support encryption and data automatic classification
 - Big data analytics can run directly against stored data (no need to transfer data to a database to run analytics)
-
 ### Getting data into S3
 - API (Application Programming Interface)
 - AWS Direct Connect 
@@ -60,7 +55,6 @@
 - Object URLs: Each object in the bucket has a URL
 - Eventual Consistency: may take time to get copy across avaliability zones
   - Great for static website hosting
-
 ### Common S3 Operation
 - Creating and deleteing buckets
 - Write objects
@@ -68,7 +62,6 @@
 - Deleting objects
 - Managing object propertiies 
 - Listing keys in buckets
-
 ### Representation State Trnasfer (REST)
 - S3 API
 - Maps HTTP methods to CRUD operations
