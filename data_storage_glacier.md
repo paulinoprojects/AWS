@@ -1,6 +1,6 @@
 # AWS Solutions Architect Associate: Data Storage Services - Glacier
 Reference: https://docs.aws.amazon.com/amazonglacier/latest/dev/introduction.html
-### Overview
+## Overview
 - Archival data storage
 - Fractions of a penny per GB/month
 - 3 Access Methods
@@ -13,7 +13,7 @@ Reference: https://docs.aws.amazon.com/amazonglacier/latest/dev/introduction.htm
 - Only Empty vaults can be deleted
 - Glacier support multipart uploads of archives, so a large archive is not required to be uploaded in a single action. 
 
-### Glacier Integration
+## Glacier Integration
 - S3 cold data can be moved to into Glacier automatically through lifecycle management
 - Snow devices can be used to import data
 - Storage Gateway can connect to Glacier
