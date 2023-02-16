@@ -59,13 +59,14 @@
   - Snowmobile 
 
 ### S3 Terminology
-- Buckets: Functions like a hard drive
+- Buckets: Functions like a hard drive.
 - Region: Location where your bucket will be hosted, closer to the user.
-- Objects: Functions like a file
-- Keys: Serves as the logical name of an object (the file name)
-- Object URLs: Each object in the bucket has a URL
-- Eventual Consistency: May take time to get copy across avaliability zones
-
+- Objects: Functions like a file.
+- Keys: Serves as the logical name of an object (the file name).
+- Object URLs: Each object in the bucket has a URL.
+- Eventual Consistency: May take time to get copy across avaliability zones.
+- Prefixes: A string of characters that comes before the object name in the object key. For example, if you have a bucket called "my-bucket" and a file called "images/photo.jpg", the prefix would be "images/".
+- Delimiters are used to further organize objects into logical groupings. For example, if you have a prefix "images/" and objects with keys "images/photo.jpg" and "images/logo.png", you could use a delimiter to group the objects by file type, creating subfolders "images/jpg/" and "images/png/".
 
 ### Common S3 Operation
 - Creating and deleteing buckets
