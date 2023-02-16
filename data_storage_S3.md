@@ -1,5 +1,5 @@
 
-# AWS Solutions Architect Associate: Data Storage Services
+# AWS Solutions Architect Associate: Data Storage Services - S3
 ## Design Considertions for Storage Services
 - Size
   - What types of data are you storing?
