@@ -1,5 +1,7 @@
 
 # AWS Solutions Architect Associate: Data Storage Services - S3
+Reference: https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
+
 ## Design Considertions for Storage Services
 - Size
   - What types of data are you storing?
