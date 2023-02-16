@@ -37,3 +37,9 @@ Reference: https://docs.aws.amazon.com/amazonglacier/latest/dev/introduction.htm
 - Set permission to who can access the vault
 - Create Vault Lock policies
 - Set tags
+
+
+# Tape Gateway 
+- Used with systems that only allow for backing up to tapes.
+- Can be configured as punlic or private (VPC)
+- A Virtual Tape Library (VTL) is a library of backup tapes that are actually just objects stored in an S3 bucket
