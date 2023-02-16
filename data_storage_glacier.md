@@ -9,6 +9,9 @@ Reference: https://docs.aws.amazon.com/amazonglacier/latest/dev/introduction.htm
     - Bulk (5-12 hours)
 - Admins define the region for data storage
 - Automatically stored with AES 256-bit encryption
+- A single AWS account can create upto 1,000 vaults per Region
+- Only Empty vaults can be deleted
+- Glacier support multipart uploads of archives, so a large archive is not required to be uploaded in a single action. 
 
 ### Glacier Integration
 - S3 cold data can be moved to into Glacier automatically through lifecycle management
@@ -22,3 +25,15 @@ Reference: https://docs.aws.amazon.com/amazonglacier/latest/dev/introduction.htm
 - Data Retrieval: Important to understand how to plan data retrieval
         - Up to 5% retrieved at no charge, no rollover. 
         - Vault can be configured to limit cost, by assigning a 'vault admin' 
+
+## Glacier Operations
+- Create vault, by selecting region and configuring a vault name.
+- Set data retieval settings:
+    - Free tier only (5%)
+    - Max Retrieval Rate, set maximum GBs/ hour data retrieved 
+    - No Retrieval Limit
+- Event Notifications, set when Simple Notification Service (SNS) when a vault is accessed, etc.
+    - You can create new SNS topics or integrate with exisiting SNS
+- Set permission to who can access the vault
+- Create Vault Lock policies
+- Set tags
