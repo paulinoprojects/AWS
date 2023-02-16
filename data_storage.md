@@ -75,4 +75,4 @@
 - Encryption (storage secuirty, data at rest not transit), admins can encrypt the bucket and/or objects. 
 - Permissions/Access can be set at the bucket level for baseline, then individual object permissions can be added to the baseline of the bucket. 
 - Lifecycle Rules for objects to can be applied to save on costs. 
-    - Unused objects can be configured to automatically move to infrequent access after 30 days, then glacier after 60 days. 
+    - Unused objects can be configured to automatically move to Infrequent Access after 30 days, then Glacier after 60 days of being inactive.  
