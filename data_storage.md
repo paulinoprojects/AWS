@@ -8,9 +8,10 @@
   - How accessable do you need your data?
 - Cost
   - Find the balance between performance, security, and operational cost.
-  
+- When selecting storage class, its important to consider monitoring, automation, and retreival fees. 
+ 
 ### Types of Storage Services
-- Simple Sotrage Service (S3)
+- <b>Simple Sotrage Service (S3)</b>
 - Glacier
 - CloudFront
 - Elastic Block Storae (EBS)
@@ -37,6 +38,10 @@
 
 # S3 
 ### Storage Class
+- Standard - Frequently accessed data.
+- Standard Infrequent Access (IA) - Infrequently accessed data.
+- 1 Zone IA - Infrequent accessed data, non-critical.
+### Storage Class Features
 - Object storage
 - Distributes across at least three avaliability zones by default (Except: 1A = 1 Zone but least expensive)
 - Support encryption and data automatic classification
@@ -59,8 +64,8 @@
 - Objects: Functions like a file
 - Keys: Serves as the logical name of an object (the file name)
 - Object URLs: Each object in the bucket has a URL
-- Eventual Consistency: may take time to get copy across avaliability zones
-  - Great for static website hosting
+- Eventual Consistency: May take time to get copy across avaliability zones
+
 
 ### Common S3 Operation
 - Creating and deleteing buckets
@@ -71,8 +76,9 @@
 - Managing object propertiies 
 - Object properties include storage class, encryption, metadata, and tags.
     - Metadata is used to define the purpose of the object.
-    - Tags are usedto search, organize, and manage access. 
-
+    - Tags are usedto search, organize, and manage access. Objects can have up to 10 tags.
+- When creating an S3 bucket folders, prefixes are added to objects to that they appear as folders.
+- 
 #### S3 Bucket Properties
 - Static Website Hosting, admins can enable their bucket to host a website. 
 - Encryption (storage secuirty, data at rest not transit), admins can encrypt the bucket and/or objects. 
