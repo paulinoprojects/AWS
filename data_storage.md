@@ -69,6 +69,9 @@
 - Deleting objects
 - Listing keys in buckets
 - Managing object propertiies 
+- Object properties include storage class, encryption, metadata, and tags.
+    - Metadata is used to define the purpose of the object.
+    - Tags are usedto search, organize, and manage access. 
 
 #### S3 Bucket Properties
 - Static Website Hosting, admins can enable their bucket to host a website. 
@@ -76,3 +79,4 @@
 - Permissions/Access can be set at the bucket level for baseline, then individual object permissions can be added to the baseline of the bucket. 
 - Lifecycle Rules for objects to can be applied to save on costs. 
     - Unused objects can be configured to automatically move to Infrequent Access after 30 days, then Glacier after 60 days of being inactive.  
+- 
