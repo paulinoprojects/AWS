@@ -41,6 +41,8 @@ Reference: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonEFS.html
     - Bursting
     - Provisioned: require more throughput than allowed by bursting
 
+### EFS with Private Link
+
 # Storage Comparison
  
 ![Storage Comparison](https://user-images.githubusercontent.com/111991325/219998040-afb38f09-7ba7-4fc9-8a97-30ba6a08a6b9.png)
