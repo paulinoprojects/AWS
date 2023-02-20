@@ -37,6 +37,9 @@ Reference: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonEFS.html
 3. Configure performance mode:
     - General Purpose
     - Max I/O: optimized for appications where tens, hundreds, thousands of EC2 instances are accessing the file system, scales to higher level of aggregate throughput and operations per second with a tradeoff slightly latencies for file operations  
+4. Configure throughput mode
+    - Bursting
+    - Provisioned: require more throughput than allowed by bursting
 
 # Storage Comparison
  
