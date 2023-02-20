@@ -23,6 +23,7 @@ Reference: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonEBS.html
 Reference: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonEFS.html
 
 ## Overview
+- EFS is like NAS storage within the cloud for the cloud.
 - EFS is free to be accessed by manay different instances, whereas the EBS is bound to an instance.
 - EFS is sharable, meaning multiple instances can be use this simueltenously.
 - Hierarchical, its a file storage location. Unlike prefix/delimiters in S3.
