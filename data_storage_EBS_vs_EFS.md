@@ -26,7 +26,7 @@ Reference: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonEFS.html
 - EFS is free to be accessed by manay different instances, whereas the EBS is bound to an instance.
 - EFS is sharable, meaning multiple instances can be use this simueltenously.
 - Hierarchical, its a file storage location. Unlike prefix/delimiters in S3.
-- Can be accessed through NFSv4
+- Can be accessed through NFSv4 (Network File System)
 - EFS is not supported on Windows instances, only Linux instances.
 
 # Storage Comparison
