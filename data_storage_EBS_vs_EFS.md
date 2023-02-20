@@ -42,6 +42,8 @@ Reference: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonEFS.html
     - Provisioned: require more throughput than allowed by bursting
 
 ### EFS with Private Link
+- Endpoint are created within your VPC
+- PrivateLink allows for secure connection between VPC, services, and applications in AWS
 
 # Storage Comparison
  
