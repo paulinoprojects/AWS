@@ -30,6 +30,14 @@ Reference: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonEFS.html
 - Can be accessed through NFSv4 (Network File System)
 - EFS is not supported on Windows instances, only Linux instances.
 
+## Creating/Settings for EFS
+1. Create EFS to a VPC (Virtual Private Cloud). Instances connect to a file system by using a network interface called a mount target.
+    - Each mount target has an IP, which is automatically assined or can be specified.
+2. Create mount targets, best practice to create mount target in each of your VPC's AZ so that EC2 instance across your VPC can access the file system
+3. Configure performance mode:
+    - General Purpose
+    - Max I/O: optimized for appications where tens, hundreds, thousands of EC2 instances are accessing the file system, scales to higher level of aggregate throughput and operations per second with a tradeoff slightly latencies for file operations  
+
 # Storage Comparison
  
 ![Storage Comparison](https://user-images.githubusercontent.com/111991325/219998040-afb38f09-7ba7-4fc9-8a97-30ba6a08a6b9.png)
