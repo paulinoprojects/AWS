@@ -20,7 +20,14 @@ Reference: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonEBS.html
  - Encryption methods
 
 # AWS Solutions Architect Associate: Data Storage Services - Elastic File System
-- Sharable 
+Reference: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonEFS.html
+
+## Overview
+- EFS is free to be accessed by manay different instances, whereas the EBS is bound to an instance.
+- EFS is sharable, meaning multiple instances can be use this simueltenously.
+- Hierarchical, its a file storage location. Unlike prefix/delimiters in S3.
+- Can be accessed through NFSv4
+- EFS is not supported on Windows instances, only Linux instances.
 
 
  
